@@ -20,6 +20,12 @@ def fib2(n): # return Fibonacci series up to n
     from fibo import fib, fib2
 fib(500)
 
+
+from fibo import *
+fib(500)
+
+
+
     
     
     
