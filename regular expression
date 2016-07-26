@@ -1,2 +1,6 @@
 Regular expressions use the backslash character ('\') to indicate special forms or to allow special characters to be used without invoking their special meaning
 
+pattern = re.compile("d")
+pattern.search("dog")     # Match at index 0
+
+pattern.search("dog", 1)  # No match; search doesn't include the "d"
