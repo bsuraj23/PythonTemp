@@ -1,0 +1,24 @@
+Modules are like conatinig functions and codes in  it 
+
+Store modules in project path or lib 
+
+by default it checks for default path and then lib and then PYTHONPATH
+
+** rememberr package is for java and module for python
+
+import package1
+
+from package1 import add
+
+from package1 import * ( imports all the functions from package1)
+
+**below code will give the all available path where python will search for modules 
+
+
+import sys
+
+print(sys.path)
+
+
+Predefined modules in python
+check   Python Module Index in python.org for all basic and advanced modules which can be used for application development
